@@ -73,8 +73,6 @@ static class Program {
 
         for(int i = 1; i <= card.Score; i++)
         {
-            //Console.WriteLine($"CardId:{card.Id}, i:{i}");
-
             if(cards.ContainsKey(card.Id+i))
                 newCards.AddRange(ComputeCard(cards[card.Id+i],cards));
         }

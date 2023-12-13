@@ -3,7 +3,7 @@
 
 // await Day01.Program.Main();
 // await Day02.Program.Main();
-await Day03.Program.Main();
+await Day05.Program.Main();
 
 
 
